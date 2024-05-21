@@ -11,6 +11,10 @@
 		9A23E6AD2BFCFE7B00022EE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23E6AC2BFCFE7B00022EE7 /* ContentView.swift */; };
 		9A23E6AF2BFCFE7C00022EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A23E6AE2BFCFE7C00022EE7 /* Assets.xcassets */; };
 		9A23E6B22BFCFE7C00022EE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A23E6B12BFCFE7C00022EE7 /* Preview Assets.xcassets */; };
+		9A23E6BA2BFD00CA00022EE7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9A23E6B92BFD00CA00022EE7 /* FirebaseAuth */; };
+		9A23E6BC2BFD00CA00022EE7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9A23E6BB2BFD00CA00022EE7 /* FirebaseFirestore */; };
+		9A23E6BE2BFD00CA00022EE7 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9A23E6BD2BFD00CA00022EE7 /* FirebaseFirestoreSwift */; };
+		9A23E6C02BFD027100022EE7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A23E6BF2BFD027100022EE7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,7 @@
 		9A23E6AC2BFCFE7B00022EE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9A23E6AE2BFCFE7C00022EE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A23E6B12BFCFE7C00022EE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A23E6BF2BFD027100022EE7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +31,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A23E6BA2BFD00CA00022EE7 /* FirebaseAuth in Frameworks */,
+				9A23E6BC2BFD00CA00022EE7 /* FirebaseFirestore in Frameworks */,
+				9A23E6BE2BFD00CA00022EE7 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +59,7 @@
 		9A23E6A92BFCFE7B00022EE7 /* TaskMaster */ = {
 			isa = PBXGroup;
 			children = (
+				9A23E6BF2BFD027100022EE7 /* GoogleService-Info.plist */,
 				9A23E6AA2BFCFE7B00022EE7 /* TaskMasterApp.swift */,
 				9A23E6AC2BFCFE7B00022EE7 /* ContentView.swift */,
 				9A23E6AE2BFCFE7C00022EE7 /* Assets.xcassets */,
@@ -83,6 +92,11 @@
 			dependencies = (
 			);
 			name = TaskMaster;
+			packageProductDependencies = (
+				9A23E6B92BFD00CA00022EE7 /* FirebaseAuth */,
+				9A23E6BB2BFD00CA00022EE7 /* FirebaseFirestore */,
+				9A23E6BD2BFD00CA00022EE7 /* FirebaseFirestoreSwift */,
+			);
 			productName = TaskMaster;
 			productReference = 9A23E6A72BFCFE7B00022EE7 /* TaskMaster.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +125,9 @@
 				Base,
 			);
 			mainGroup = 9A23E69E2BFCFE7B00022EE7;
+			packageReferences = (
+				9A23E6B82BFD00CA00022EE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 9A23E6A82BFCFE7B00022EE7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A23E6B22BFCFE7C00022EE7 /* Preview Assets.xcassets in Resources */,
+				9A23E6C02BFD027100022EE7 /* GoogleService-Info.plist in Resources */,
 				9A23E6AF2BFCFE7C00022EE7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,11 +292,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TaskMaster/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TaskMaster;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,11 +320,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TaskMaster/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TaskMaster;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,6 +360,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9A23E6B82BFD00CA00022EE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.26.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9A23E6B92BFD00CA00022EE7 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A23E6B82BFD00CA00022EE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		9A23E6BB2BFD00CA00022EE7 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A23E6B82BFD00CA00022EE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		9A23E6BD2BFD00CA00022EE7 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A23E6B82BFD00CA00022EE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9A23E69F2BFCFE7B00022EE7 /* Project object */;
 }
