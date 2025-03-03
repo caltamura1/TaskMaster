@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A20D9152D6FA88800739773 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A20D9142D6FA88800739773 /* GoogleService-Info.plist */; };
 		9A23E6AB2BFCFE7B00022EE7 /* TaskMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23E6AA2BFCFE7B00022EE7 /* TaskMasterApp.swift */; };
 		9A23E6AD2BFCFE7B00022EE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23E6AC2BFCFE7B00022EE7 /* ContentView.swift */; };
 		9A23E6AF2BFCFE7C00022EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A23E6AE2BFCFE7C00022EE7 /* Assets.xcassets */; };
@@ -14,16 +15,45 @@
 		9A23E6BA2BFD00CA00022EE7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9A23E6B92BFD00CA00022EE7 /* FirebaseAuth */; };
 		9A23E6BC2BFD00CA00022EE7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9A23E6BB2BFD00CA00022EE7 /* FirebaseFirestore */; };
 		9A23E6BE2BFD00CA00022EE7 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9A23E6BD2BFD00CA00022EE7 /* FirebaseFirestoreSwift */; };
-		9A23E6C02BFD027100022EE7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A23E6BF2BFD027100022EE7 /* GoogleService-Info.plist */; };
+		9A23E6C72C03D90700022EE7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23E6C62C03D90700022EE7 /* LoginView.swift */; };
+		9A23E6CB2C08E3A200022EE7 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23E6CA2C08E3A200022EE7 /* Components.swift */; };
+		9A23E6CD2C0DF9ED00022EE7 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23E6CC2C0DF9ED00022EE7 /* RegistrationView.swift */; };
+		9A23E6CF2C0F72D400022EE7 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23E6CE2C0F72D400022EE7 /* LoginController.swift */; };
+		9A23E6D12C0F7BFB00022EE7 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23E6D02C0F7BFB00022EE7 /* RegisterController.swift */; };
+		9A23E6D32C10CF3E00022EE7 /* ContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23E6D22C10CF3E00022EE7 /* ContentController.swift */; };
+		9A23E6D52C113FC700022EE7 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23E6D42C113FC700022EE7 /* ToDoListView.swift */; };
+		9A23E6D72C12023500022EE7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23E6D62C12023500022EE7 /* ProfileView.swift */; };
+		9A23E6D92C1204AC00022EE7 /* ToDoListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23E6D82C1204AC00022EE7 /* ToDoListController.swift */; };
+		9A23E6DB2C1204B800022EE7 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23E6DA2C1204B800022EE7 /* ProfileController.swift */; };
+		9A23E6DD2C1204E500022EE7 /* ItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23E6DC2C1204E500022EE7 /* ItemController.swift */; };
+		9A23E6E12C12099400022EE7 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23E6E02C12099400022EE7 /* ItemView.swift */; };
+		9A23E6E32C15E22300022EE7 /* LineItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23E6E22C15E22300022EE7 /* LineItemView.swift */; };
+		9A23E6E72C15F4F200022EE7 /* LineItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23E6E62C15F4F200022EE7 /* LineItemController.swift */; };
+		9A23E6E92C172D0C00022EE7 /* SettingsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A23E6E82C172D0C00022EE7 /* SettingsRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A20D9142D6FA88800739773 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9A23E6A72BFCFE7B00022EE7 /* TaskMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A23E6AA2BFCFE7B00022EE7 /* TaskMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskMasterApp.swift; sourceTree = "<group>"; };
 		9A23E6AC2BFCFE7B00022EE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9A23E6AE2BFCFE7C00022EE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A23E6B12BFCFE7C00022EE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9A23E6BF2BFD027100022EE7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9A23E6C62C03D90700022EE7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9A23E6CA2C08E3A200022EE7 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		9A23E6CC2C0DF9ED00022EE7 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		9A23E6CE2C0F72D400022EE7 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		9A23E6D02C0F7BFB00022EE7 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		9A23E6D22C10CF3E00022EE7 /* ContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentController.swift; sourceTree = "<group>"; };
+		9A23E6D42C113FC700022EE7 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+		9A23E6D62C12023500022EE7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9A23E6D82C1204AC00022EE7 /* ToDoListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListController.swift; sourceTree = "<group>"; };
+		9A23E6DA2C1204B800022EE7 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		9A23E6DC2C1204E500022EE7 /* ItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemController.swift; sourceTree = "<group>"; };
+		9A23E6E02C12099400022EE7 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		9A23E6E22C15E22300022EE7 /* LineItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineItemView.swift; sourceTree = "<group>"; };
+		9A23E6E62C15F4F200022EE7 /* LineItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineItemController.swift; sourceTree = "<group>"; };
+		9A23E6E82C172D0C00022EE7 /* SettingsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +89,10 @@
 		9A23E6A92BFCFE7B00022EE7 /* TaskMaster */ = {
 			isa = PBXGroup;
 			children = (
-				9A23E6BF2BFD027100022EE7 /* GoogleService-Info.plist */,
-				9A23E6AA2BFCFE7B00022EE7 /* TaskMasterApp.swift */,
-				9A23E6AC2BFCFE7B00022EE7 /* ContentView.swift */,
-				9A23E6AE2BFCFE7C00022EE7 /* Assets.xcassets */,
+				9A23E6C12BFD093500022EE7 /* Views */,
+				9A23E6C22BFD093C00022EE7 /* Controllers */,
+				9A23E6C42BFD095200022EE7 /* Assets */,
+				9A23E6C52BFD099500022EE7 /* Main */,
 				9A23E6B02BFCFE7C00022EE7 /* Preview Content */,
 			);
 			path = TaskMaster;
@@ -74,6 +104,53 @@
 				9A23E6B12BFCFE7C00022EE7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A23E6C12BFD093500022EE7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A23E6AC2BFCFE7B00022EE7 /* ContentView.swift */,
+				9A23E6D42C113FC700022EE7 /* ToDoListView.swift */,
+				9A23E6E02C12099400022EE7 /* ItemView.swift */,
+				9A23E6E22C15E22300022EE7 /* LineItemView.swift */,
+				9A23E6D62C12023500022EE7 /* ProfileView.swift */,
+				9A23E6C62C03D90700022EE7 /* LoginView.swift */,
+				9A23E6CC2C0DF9ED00022EE7 /* RegistrationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A23E6C22BFD093C00022EE7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A23E6D22C10CF3E00022EE7 /* ContentController.swift */,
+				9A23E6D82C1204AC00022EE7 /* ToDoListController.swift */,
+				9A23E6DC2C1204E500022EE7 /* ItemController.swift */,
+				9A23E6E62C15F4F200022EE7 /* LineItemController.swift */,
+				9A23E6DA2C1204B800022EE7 /* ProfileController.swift */,
+				9A23E6CE2C0F72D400022EE7 /* LoginController.swift */,
+				9A23E6D02C0F7BFB00022EE7 /* RegisterController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9A23E6C42BFD095200022EE7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9A20D9142D6FA88800739773 /* GoogleService-Info.plist */,
+				9A23E6AE2BFCFE7C00022EE7 /* Assets.xcassets */,
+				9A23E6E82C172D0C00022EE7 /* SettingsRow.swift */,
+				9A23E6CA2C08E3A200022EE7 /* Components.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9A23E6C52BFD099500022EE7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9A23E6AA2BFCFE7B00022EE7 /* TaskMasterApp.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A23E6B22BFCFE7C00022EE7 /* Preview Assets.xcassets in Resources */,
-				9A23E6C02BFD027100022EE7 /* GoogleService-Info.plist in Resources */,
+				9A20D9152D6FA88800739773 /* GoogleService-Info.plist in Resources */,
 				9A23E6AF2BFCFE7C00022EE7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,8 +232,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A23E6CB2C08E3A200022EE7 /* Components.swift in Sources */,
+				9A23E6D32C10CF3E00022EE7 /* ContentController.swift in Sources */,
+				9A23E6D72C12023500022EE7 /* ProfileView.swift in Sources */,
+				9A23E6D92C1204AC00022EE7 /* ToDoListController.swift in Sources */,
+				9A23E6CF2C0F72D400022EE7 /* LoginController.swift in Sources */,
+				9A23E6D52C113FC700022EE7 /* ToDoListView.swift in Sources */,
+				9A23E6C72C03D90700022EE7 /* LoginView.swift in Sources */,
+				9A23E6D12C0F7BFB00022EE7 /* RegisterController.swift in Sources */,
+				9A23E6DD2C1204E500022EE7 /* ItemController.swift in Sources */,
 				9A23E6AD2BFCFE7B00022EE7 /* ContentView.swift in Sources */,
+				9A23E6CD2C0DF9ED00022EE7 /* RegistrationView.swift in Sources */,
+				9A23E6E92C172D0C00022EE7 /* SettingsRow.swift in Sources */,
+				9A23E6E32C15E22300022EE7 /* LineItemView.swift in Sources */,
+				9A23E6E12C12099400022EE7 /* ItemView.swift in Sources */,
 				9A23E6AB2BFCFE7B00022EE7 /* TaskMasterApp.swift in Sources */,
+				9A23E6E72C15F4F200022EE7 /* LineItemController.swift in Sources */,
+				9A23E6DB2C1204B800022EE7 /* ProfileController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,26 +379,35 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TaskMaster/Preview Content\"";
+				DEVELOPMENT_TEAM = 8M9YPX7WY5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = TaskMaster;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tallwalltech.TaskMaster;
+				PRODUCT_BUNDLE_IDENTIFIER = tallwalltech.dothethings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,26 +416,35 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TaskMaster/Preview Content\"";
+				DEVELOPMENT_TEAM = 8M9YPX7WY5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = TaskMaster;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tallwalltech.TaskMaster;
+				PRODUCT_BUNDLE_IDENTIFIER = tallwalltech.dothethings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
